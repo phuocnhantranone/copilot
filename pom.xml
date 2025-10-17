@@ -24,6 +24,7 @@
     <modules>
         <module>untitled</module>
 		<module>untitled/sub_untitled_1</module>
+		<module>untitled/sub_untitled_2</module>
 	</modules>
     <scm>
 		<connection/>
