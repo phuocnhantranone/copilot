@@ -1,13 +1,12 @@
 version: 2
 updates:
-  # 1️⃣ Enable Dependabot for Maven
   - package-ecosystem: "maven"
-    directory: "/"  # root directory of your repository
+    directory: "/"   # root pom.xml
     schedule:
-      interval: "weekly"  # how often Dependabot should check (daily | weekly | monthly)
+      interval: "weekly"
 
-    # 2️⃣ Ignore all old version folders (Axis 1.x)
+    # ✅ Dependabot only supports dependency-name, not paths
     ignore:
-      - dependency-name: "*"
-        paths:
-          - "untitled/sub_untitled_1"
+      - dependency-name: "org.apache.axis:axis"
+      - dependency-name: "org.apache.axis:axis-jaxrpc"
+      - dependency-name: "org.apache.axis:axis-saaj"
