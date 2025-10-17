@@ -1,1 +1,13 @@
-abc
+version: 2
+updates:
+  # 1️⃣ Enable Dependabot for Maven
+  - package-ecosystem: "maven"
+    directory: "/"  # root directory of your repository
+    schedule:
+      interval: "weekly"  # how often Dependabot should check (daily | weekly | monthly)
+
+    # 2️⃣ Ignore all old version folders (Axis 1.x)
+    ignore:
+      - dependency-name: "*"
+        paths:
+          - "untitled/sub_untitled_1"
