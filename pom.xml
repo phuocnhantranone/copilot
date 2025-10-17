@@ -23,7 +23,8 @@
 	</developers>
     <modules>
         <module>untitled</module>
-    </modules>
+		<module>untitled/sub_untitled_1</module>
+	</modules>
     <scm>
 		<connection/>
 		<developerConnection/>
