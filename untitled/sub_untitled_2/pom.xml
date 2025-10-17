@@ -10,12 +10,4 @@
     <artifactId>sub_untitled_2</artifactId>
     <name>Archetype - sub_untitled_2</name>
     <url>http://maven.apache.org</url>
-
-    <dependencies>
-        <dependency>
-            <groupId>org.apache.axis</groupId>
-            <artifactId>axis</artifactId>
-            <version>1.4</version>
-        </dependency>
-    </dependencies>
 </project>
